@@ -1,4 +1,4 @@
-```yaml
+yaml
 name: Continuous Integration
 on: [push]                      # Will make the workflow run every time you push to any branch
 
@@ -8,4 +8,3 @@ jobs:
     runs-on: ubuntu-latest      # Sets the build environment a machine with the latest Ubuntu installed
     steps:
     - uses: actions/checkout@v2 # Adds a step to checkout the repository code
-```
